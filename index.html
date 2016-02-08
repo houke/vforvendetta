@@ -1,0 +1,573 @@
+<!doctype html>
+<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
+<!--[if lt IE 7 ]> <html class="no-js ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]>    <html class="no-js ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]>    <html class="no-js ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+
+  <!-- Always force latest IE rendering engine (even in intranet) & Chrome Frame
+       Remove this if you use the .htaccess -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+  <title>V for Vendetta, Typography with HTML5 & CSS3 </title>
+  <meta name="description" content="V for Vendetta, Typography with HTML5 & CSS3 - will only work in Chrome, Safari and new versions of Firefox">
+  <meta name="author" content="Houke de Kwant">
+
+  <!-- Mobile viewport optimized: j.mp/bplateviewport -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Place favicon.ico & apple-touch-icon.png in the root of your domain and delete these references -->
+  <link rel="shortcut icon" href="http://houkedekwant.com/boilerplate/favicon.ico">
+  <link rel="apple-touch-icon" href="http://houkedekwant.com/boilerplate/apple-touch-icon.png">
+  
+  <!-- CSS: implied media="all" -->
+  <link rel="stylesheet" title="maincss" href="./css/style2.css">
+  <link rel="alternate stylesheet" href="./css/style1.css" title="othercss" /> 
+  <script type="text/javascript" src="./js/styleswitcher.js"></script>
+
+  <!-- Uncomment if you are specifically targeting less enabled mobile browsers
+  <link rel="stylesheet" media="handheld" href="css/handheld.css?v=2">  -->
+
+  <!-- All JavaScript at the bottom, except for Modernizr which enables HTML5 elements & feature detects -->
+  <script src="js/libs/modernizr-1.7.min.js"></script>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-15882700-6']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+</head>
+
+<body>
+
+  <div id="container">
+  	<div id="show_once">
+  		<p>Best viewed in Chrome, Safari or newer versions of Firefox (thanks to Derek Pomery)</p>
+  		<h1>Click play to start</h1>
+  		<audio onplay="setActiveStyleSheet('othercss'); return false;" id="button" controls="controls" > 
+           <source type="audio/ogg" src="VforVendetta.ogg" /> 
+           <source type="audio/mpeg" src="VforVendetta.mp3" /> 
+        </audio> 
+  	</div>
+    <div id="main" role="main">
+	<header>
+		<h2>V for Vendetta, Typography with HTML5 & CSS3 - Best viewed in <a href="http://www.google.com/chrome/" target="_blank">Google Chrome</a>, <a href="http://www.apple.com/safari/" target="_blank">Apple Safari</a> or newer versions of <a href="http://www.mozilla.com/en/firefox/channel/" target="_blank">Firefox</a> (thanks to Derek Pomery). For more info click <a href="http://houkedekwant.com/v-for-vendetta-typography-with-html5-css3">here</a>. <br/>Out of sync? Reload the page and play again, that'll do.</h2>
+    </header>
+    <section id="stage">
+    
+     	<dl>
+     		
+     		<!-- SCENE 1 -->
+     		<dt>Hugo Weaving (V)</dt>
+     		<dd id="scene1">
+     			<p class="start">
+     				<strong>I</strong> 
+     			</p>
+     			<p class="act1">
+     				<em>can</em> 
+     				<b>assure</b> 
+     				<span>you,</span>
+     			</p>
+     			<p class="act2">
+     				<strong>mean</strong> 
+     				<em>you</em> 
+     				<span>no</span>
+     			</p>
+     			<p class="act3">
+     				<span>harm</span>
+     				<b>.</b>
+     				<strong>.</strong> 
+     				<em>.</em> 
+     			</p>
+     		</dd>
+     		
+     		<!-- SCENE 2 -->
+     		<dt>Natalie Portman (Evey)</dt>
+     		<dd id="scene2">
+     			<p class="act4">
+     				<em>Who</em> 
+     				<b>are</b> 
+     				<span>you?</span>
+     			</p>
+     		</dd>
+     		
+     		<!-- SCENE 3 -->
+     		<dt>Hugo Weaving (V)</dt>
+     		<dd id="scene3">
+     			<p class="act5">
+     				<em>Who</em> 
+     				<b>?</b> 
+     			</p>
+     		</dd>
+     		
+     		<!-- SCENE 4 -->
+     		<dt>Hugo Weaving (V)</dt>
+     		<dd id="scene4">
+     			<p class="act6">
+     				<em>Who</em> 
+     				<b>is</b> 
+     				<strong>but</strong> 
+     				<i>the</i> 
+     				<span>form</span> 
+     			</p>
+     			<p class="act7">
+     				<em>following</em> 
+     				<b>the</b> 
+     				<strong>function</strong> 
+     				<i>of</i> 
+     				<span>what</span> 
+     			</p>
+     			<p class="act8">
+     				<em>and</em> 
+     				<b>what</b> 
+     				<strong>I</strong> 
+     				<span>am</span> 
+     			</p>
+     			<p class="act9">
+     				<em>is</em> 
+     				<b>a</b> 
+     				<strong>man</strong> 
+     				<i>in</i> 
+     				<span>a</span> 
+     			</p>
+     			<p class="act10">
+     				<span>MASK</span> 
+     			</p>
+     		</dd>
+     		
+     		<!-- SCENE 5 -->
+     		<dt>Natalie Portman (Evey)</dt>
+     		<dd id="scene5">
+     			<p class="act11">
+     				<em>Well<br/></em> 
+     				<b>I</b> 
+     				<strong>can<br/></strong> 
+     				<i>see</i> 
+     				<span>that</span> 
+     			</p>
+     		</dd>
+     		
+     		<!-- SCENE 6 -->
+     		<dt>Hugo Weaving (V)</dt>
+     		<dd id="scene6">
+     			<p class="act12">
+     				<em>of<br/></em> 
+     				<b>course<br/></b> 
+     				<strong>you</strong>
+     				<span>can</span> 
+     			</p>
+     		</dd>	
+     		
+     		<!-- SCENE 7 -->
+     		<dt>Hugo Weaving (V)</dt>
+     		<dd id="scene7">
+     			<p class="act13">
+     				<em>I'm</em> 
+     				<b>not</b> 
+     				<strong>questioning</strong>
+     				<i>your</i>
+     				<span>powers</span>
+     				<span class="act13n1">of</span>
+     				<span class="act13n2">observation</span> 
+     			</p>
+     			<p class="act14">
+     				<em>I'm</em> 
+     				<b>merely</b> 
+     				<strong>remarking</strong>
+     				<i>upon</i> 
+     			</p>
+     			<p class="act15">
+     				<em>the</em> 
+     				<b>paradox</b> 
+     				<strong>of</strong>
+     				<i>asking</i>
+     				<span>a</span> 
+     			</p>
+     			<p class="act16">
+     				<em>masked</em> 
+     				<b>man</b> 
+				</p>
+     			<p class="act17">
+     				<em>WHO</em> 
+     				<b>HE</b>
+     				<strong>IS</strong> 
+				</p>
+     		</dd>
+     		
+     		<!-- SCENE 8 -->
+     		<dt>Natalie Portman (Evey)</dt>
+     		<dd id="scene8">
+     			<p class="act18">
+     				<em><span class="act18n1">o</span><span class="act18n2">h</span></em> 
+     				<b><span class="act18n3">r</span><span class="act18n4">i</span><span class="act18n5">g</span><span class="act18n6">h</span><span class="act18n7">t</span></b>
+     			</p>
+     		</dd>
+     		
+     		<!-- SCENE 9 -->
+     		<dt>Hugo Weaving (V)</dt>
+     		<dd id="scene9">
+     			<p class="act19">
+     				<em>But</em> 
+     				<b>on</b> 
+     				<strong>this</strong>
+     				<i>most<br/></i>
+     				<span class="act19n1">auspicious<br/></span>
+     				<span class="act19n2">of</span>
+     				<span class="act19n3">nights<br/></span>  
+     				<span class="act19n4">permit</span> 
+     				<span class="act19n5">me</span>  
+     				<span class="act19n6">then</span> 
+     			</p>
+     			<p class="act20">      
+     				<em>in</em> 
+     				<b>lieu</b> 
+     				<strong>of</strong>
+     				<i>the</i>
+     				<span class="act20n1">more<br/></span>
+     				<span class="act20n2">commonplace</span>
+     				<span class="act20n3">sobriquet</span>  
+     			</p>
+     			<p class="act21">
+     				<em>to</em> 
+     				<b>suggest</b> 
+     				<strong>the</strong>
+     				<i>character<br/></i>
+     				<span class="act21n1">of</span>
+     				<span class="act21n2">this</span>
+     				<span class="act21n3">dramatis</span>  
+     				<span class="act21n4">persona</span> 
+     			</p>
+     		</dd>
+     		
+     		<!-- SCENE 10 -->
+     		<dt>Hugo Weaving (V)</dt>
+     		<dd id="scene10">
+     			<p class="act22">
+     				<em>Voila! </em> 
+     			</p>
+     		</dd>
+     		
+     		<!-- SCENE 11 -->
+     		<dt>Hugo Weaving (V)</dt>
+     		<dd id="scene11">
+     			<p class="act23">
+     				<em>In</em> 
+     				<b>view,</b> 
+     			</p>
+     			<p class="act24">
+     				<em>a</em> 
+     				<b>humble<br/></b> 
+     				<strong>vaudevillian<br/></strong>
+     				<i>veteran</i>
+     			</p>
+     			<p class="act25">
+     				<em>cast <br/></em> 
+     				<b>vicariously</b> 
+     			</p>
+     			<p class="act26">
+     				<em>as</em> 
+     				<b>both<br/></b> 
+     				<strong>victim</strong>
+     			</p>
+     			<p class="act27">
+     				<em>and<br/></em> 
+     				<b>villain</b> 
+     			</p>
+     			<p class="act28">
+     				<em>by</em> 
+     				<b>the<br/></b>
+     				<strong>vicissitudes</strong>  
+     			</p>
+     			<p class="act29">
+     				<em>of<br/></em> 
+     				<b>FATE</b> 
+     			</p>
+     		</dd>
+     		
+     		<!-- SCENE 12 -->
+     		<dt>Hugo Weaving (V)</dt>
+     		<dd id="scene12">
+     			<p class="act30">
+     				<em>This<br/></em> 
+     				<b>visage</b> 
+     			</p>
+     			<p class="act31">
+     				<em>no</em> 
+     				<b>mere<br/></b> 
+     				<strong>veneer<br/></strong>
+     			</p>
+     			<p class="act32">
+     				<em>of<br/></em> 
+     				<b>vanity</b> 
+     			</p>
+     			<p class="act33">
+     				<em>is</em> 
+     				<b>a<br/></b> 
+     				<strong>vestige</strong>
+     			</p>
+     			<p class="act34">
+     				<em>of</em> 
+     				<strong>the<br/></strong>
+     				<b>vox</b> 
+     				<i>populi</i>
+     			</p>
+     			<p class="act35">
+     				<em>now<br/></em> 
+     				<strong>vacant</strong>  
+     			</p>
+     			<p class="act36">
+     				<em>vanished</em> 
+     			</p>
+     		</dd>
+     		
+     		<!-- SCENE 13 -->
+     		<dt>Hugo Weaving (V)</dt>
+     		<dd id="scene13">
+     			<p class="act37">
+     				<em>However,</em> 
+     				<b>this</b> 
+     				<strong>valorous</strong>
+     				<i>visitation</i>       
+     			</p>
+     			<p class="act38">
+     				<em>of</em> 
+     				<b>a</b> 
+     				<strong>by-gone</strong>
+     				<i>vexation</i>
+     			</p>
+     			<p class="act39">          
+     				<em>stands</em> 
+     				<b>vivified</b> 
+     			</p>
+     		</dd>
+     		
+     		<!-- SCENE 14 -->
+     		<dt>Hugo Weaving (V)</dt>
+     		<dd id="scene14">
+     			<p class="act40"> 
+     				<strong>and<br/></strong>
+     				<i>has</i>         
+     				<em>vowed<br/></em> 
+     				<b>to</b> 
+     				<span>vanquish<br/></span>
+     			</p>
+     			<p class="act41">  
+     				<strong>these</strong>        
+     				<i>venal<br/></i> 
+     				<em>and</em> 
+     				<b>virulent<br/></b>
+     				<span>vermin<br/></i>
+     			</p>
+     			<p class="act42">          
+     				<strong>van-guarding<br/></strong> 
+     				<i>vice<br/></i> 
+     				<em>and</em>
+     				<b>vouchsafing<br/></b>
+     			</p>
+     			<p class="act43">          
+     				<strong>the</strong> 
+     				<i>violently<br/</i> 
+     				<em>vicious<br/</em>
+     				<b>and</b>
+     			</p>
+     			<p class="act44">          
+     				<strong>voracious<br/></strong> 
+     				<i>violation<br/></i> 
+     				<em>of<br/></em>
+     				<b>volition</b>
+     			</p>
+     		</dd>
+     		
+     		<!-- SCENE 15 -->
+     		<dt>Hugo Weaving (V) - [carves V into poster on wall] </dt>
+     		<dd id="scene15">
+     			<p class="act45"> 
+     				<img src="img/poster2.jpg" alt="[carves V into poster on wall]"/>
+     			</p>
+     		</dd>
+     		
+     		<!-- SCENE 16 -->
+     		<dt>Hugo Weaving (V)</dt>
+     		<dd id="scene16">
+     			<p class="act46">     
+     				<strong>The</strong> 
+     				<i>only</i> 
+     				<em>verdict</em>
+     				<b>is<br/></b>
+     				<span>vengeance</span>
+     			</p>
+     			<p class="act47">
+     				<strong>a<br/></strong>
+     				<i>vendetta<br/></i>
+     				<em>held</em>
+     				<b>as a<br/></b>
+     				<span>votive</span>
+     			</p>
+     			<p class="act48">
+     				<strong>not</strong>
+     				<i>in</i>
+     				<em>vain</em>
+     			</p>
+     			<p class="act49">
+     				<strong>for</strong>
+     				<i>the<br/></i>
+     				<em>value<br/></em>
+     				<b>and</b>
+     				<span class="act49n1">veracity<br/></span>
+     				<span class="act49n2">of</span>
+     				<span class="act49n3">such<br/></span>
+     				<span class="act49n4">shall</span>
+     				<span class="act49n5">one</span>
+     				<span class="act49n6">day</span>
+     			</p>
+     			<p class="act50">
+     				<strong>vindicate<br/></strong>
+     				<i>the<br/></i>
+     				<em>vigilant</em>
+     				<b>and the<br/></b>
+     				<span>virtuous</span>
+     			</p>
+     		</dd>
+     		
+     		<!-- SCENE 17 -->
+     		<dt>Hugo Weaving (V) - [giggles] </dt>
+     		<dd id="scene17">
+     			<p class="act51"> 
+     				<strong>Ha</strong>
+     				<i>Ha</i>
+     				<em>Ha</em>
+     				<b>Ha</b>
+     				<span>Ha</span>
+     			</p>
+     		</dd>
+     		
+     		<!-- SCENE 18 -->
+     		<dt>Hugo Weaving (V)</dt>
+     		<dd id="scene18">
+     			<p class="act52"> 
+     				<strong>Verily</strong>
+     				<i>this</i>
+     				<em>vichyssoise</em>
+     				<b>of</b>
+     				<span class="act52n1">verbiage</span>
+     				<span class="act52n2">veers</span>
+     				<span class="act52n3">most</span>
+     				<span class="act52n4">verbose</span>
+     			</p>
+     		</dd>  
+     		
+     		<!-- SCENE 19 -->
+     		<dt>Hugo Weaving (V)</dt>
+     		<dd id="scene19">
+     			<p class="act53"> 
+     				<strong>so</strong>
+     				<i>let</i>
+     				<em>me</em>
+     				<b>simply</b>
+     				<span class="act53n1">add</span>
+     				<span class="act53n2">that</span>
+     				<span class="act53n3">it's</span>
+     				<span class="act53n4">my</span>
+     				<span class="act53n5">very</span>
+     				<span class="act53n6">good</span>
+     				<span class="act53n7">honor</span>
+     				<span class="act53n8">to</span>
+     				<span class="act53n9">meet</span>
+     				<span class="act53n10">you</span>
+     				<span class="act53n11">and</span>
+     				<span class="act53n12">you</span>
+     				<span class="act53n13">may</span>
+     				<span class="act53n14">call</span>
+     				<span class="act53n15">me</span>
+     			</p>
+     		</dd> 
+     		
+     		<!-- SCENE 20 -->
+     		<dt>Hugo Weaving (V)</dt>
+     		<dd id="scene20">
+     			<p class="act54"> 
+     				<img src="img/poster.jpg" alt="You may call me V"/>
+     			</p>
+     		</dd> 
+     		
+     		<!-- SCENE 21 -->
+     		<dt>Natalie Portman (Evey)</dt>
+     		<dd id="scene21">
+     			<p class="act55">
+     				<em>Are</em> 
+     				<b>you</b> 
+     				<strong>like</strong> 
+     				<i>a<br/></i> 
+     				<span class="act55n1">crazy</span>
+     				<span class="act55n2">person</span>
+     				<span class="act55n3">?</span> 
+     			</p>
+     		</dd>
+     		
+     		<!-- SCENE 22 -->
+     		<dt>Hugo Weaving (V)</dt>
+     		<dd id="scene22">
+     			<p class="act56">
+     				<em>I am</em> 
+     				<b>quite</b> 
+     				<strong>sure</strong> 
+     				<i>they</i> 
+     				<span class="act56n1">will</span>
+     				<span class="act56n2">say</span>
+     				<span class="act56n3">so</span> 
+     			</p>
+     		</dd>
+     		
+     		<!-- END -->
+     		<dt>Houke de Kwant</dt>
+     		<dd id="end">
+     			<p class="act57">
+     				<em>Thanks<br/></em> 
+     				<b>for watching</b> 
+     				<strong>!</strong> 
+     				<i><a href="http://houkedekwant.com" title="Houke de Kwant">Houke de Kwant</a></i> 
+     			</p>
+     		</dd>
+     		
+     	</dl>    
+    </section>
+    </div>        
+    <div id="social" style="display: block; position: absolute; left: 20px; bottom: 20px;">
+    <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://houkedekwant.com/weblab/VforVendetta/" data-text="V for Vendetta, Typography with HTML5 & CSS3 (Use Chrome or Safari to view this)" data-count="horizontal" data-via="houkedekwant">Tweet</a><script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
+    <iframe src="http://www.facebook.com/plugins/like.php?href=http%3A%2F%2Fhoukedekwant.com%2Fweblab%2FVforVendetta%2F&amp;send=false&amp;layout=button_count&amp;width=200&amp;show_faces=false&amp;action=like&amp;colorscheme=light&amp;font&amp;height=21" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:200px; height:21px;" allowTransparency="true"></iframe>
+    </div>          
+  </div> <!--! end of #container -->
+
+
+  <!-- JavaScript at the bottom for fast page loading -->
+
+  <!-- Grab Google CDN's jQuery, with a protocol relative URL; fall back to local if necessary -->
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.js"></script>
+  <script>window.jQuery || document.write("<script src='js/libs/jquery-1.5.1.min.js'>\x3C/script>")</script>
+
+
+  <!-- scripts concatenated and minified via ant build script-->
+  <script src="js/plugins.js"></script>
+  <script src="js/script.js"></script>
+  <!-- end scripts-->
+
+
+  <!--[if lt IE 7 ]>
+    <script src="js/libs/dd_belatedpng.js"></script>
+    <script>DD_belatedPNG.fix("img, .png_bg"); // Fix any <img> or .png_bg bg-images. Also, please read goo.gl/mZiyb </script>
+  <![endif]-->
+
+
+
+</body>
+</html>
